@@ -7,7 +7,7 @@ var view= {
         var cell = document.getElementById(location);
         cell.setAttribute("class", "hit");
     },
-    displaymiss: function (location) {
+    displayMiss: function (location) {
          var cell= document.getElementById(location);
          cell.setAttribute("class","miss");
     },
